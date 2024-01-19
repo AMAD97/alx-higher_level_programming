@@ -68,7 +68,8 @@ class Rectangle(Base):
         return self.width * self.height
 
     def display(self):
-        '''prints the rectangle with the '#' characters.'''
-        s = '\n' * self.y + \
-                (' ' * self.x + '#' * self.width + '\n') * self.height
-                print(s, end='')
+    '''Prints the rectangle with '#' characters.'''
+    s = '\n' * self.y + \
+            (' ' * self.x + '#' * self.width + '\n') * self.height
+            print(s, end='')
+
