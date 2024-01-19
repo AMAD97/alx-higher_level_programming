@@ -3,7 +3,7 @@
 
 
 class Base:
-    ''' representation of the base of our hierarchy.'''
+    '''A representation of the base of our oop hierarchy.'''
 
     __nb_objects = 0
 
@@ -13,4 +13,4 @@ class Base:
             self.id = id
         else:
             Base.__nb_objects += 1
-            self.id = Base,__nb_objects
+            self.id = Base.__nb_objects
